@@ -3,7 +3,7 @@ import {  Routes, Route, } from 'react-router-dom';
 import AllBookClubsPage from './pages/AllBookClubs.js';
 import NewBookClubsPage from './pages/NewBookClub';
 import FavoritesPage from './pages/Favorites';
-import MainNav from './components/layout/MainNav';
+import MainNav from './components/Nav';
 
 function App() {
   return (
