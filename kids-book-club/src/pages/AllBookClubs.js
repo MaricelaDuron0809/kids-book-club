@@ -1,8 +1,9 @@
-function AllBookClubsPage() {
-    return 
-    <div>
-        All Book Clubs Page
-    </div>
-}
-
-export default AllBookClubsPage;
+const AllBookClubsPage = () => {
+    return (
+        <div> 
+            All Book CLubs Page
+        </div>
+        )
+    }
+    
+    export default AllBookClubsPage;
