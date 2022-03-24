@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom';
+import './styles.css';
+import background from '../../images/background.png'
 
 const MainNav = () => {
     return (
-        <header>
-            <div>Kids Book Club</div>
+        <header className="header"
+        style={{ backgroundImage: `url(${background})` }}
+        >
+            <div className="logo">Kids Book Club</div>
             <nav>
                 <ul>
                     <li><Link to="/">All Book Clubs</Link></li>
