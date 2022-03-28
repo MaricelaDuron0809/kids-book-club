@@ -1,5 +1,5 @@
-import ClubItem from '../components/ClubItem/index.js';
-import ClubList from '../components/ClubList/index.js';
+import ClubItem from '../components/clubs/ClubItem/index.js';
+import ClubList from '../components/clubs/ClubList/index.js';
 
 
 const DUMMY_DATA = [
@@ -7,15 +7,17 @@ const DUMMY_DATA = [
         id: "c1",
         name: "Cosmos",
         image: "https://images-na.ssl-images-amazon.com/images/I/71+TrVeM+tL.jpg",
-        location: "Galaxy",
-        description:"rawr"
+        when: "April 17",
+        where: "Galaxy",
+        details:"rawr"
     },
     {
         id: "c2",
         name: "Shrek Lovers",
         image: "https://images-na.ssl-images-amazon.com/images/I/A1nQGC9cRqL.jpg",
-        location: "Far Far Away",
-        description:"rawr"
+        when: "April 17",
+        where: "Far Far Away",
+        details:"rawr"
     }
 
 

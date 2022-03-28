@@ -1,5 +1,5 @@
 import './styles.css';
-import Card from '../ui/card'
+import Card from '../../ui/card'
 
 const ClubItem = (props) => {
     return (
@@ -10,8 +10,9 @@ const ClubItem = (props) => {
             </div>
             <div className="content">
                 <h2>{props.name}</h2>
-                <address>{props.location}</address>
-                <p>{props.description}</p>
+                <p>{props.when}</p>
+                <address>{props.where}</address>
+                <p>{props.details}</p>
             </div>
             <div className="actions">
                 <button>Add To Favorites</button>

@@ -1,9 +1,11 @@
+import NewClubForm from "../components/clubs/New Club Form"
+
 //allows user to add new book club
 const NewBookClubsPage = () => {
     return (
-        <div> 
-            New Book Club Page
-        </div>
+        <section>
+            <NewClubForm />
+        </section>
         )
     }
     

@@ -1,4 +1,4 @@
-import ClubItem from '../ClubItem/index.js';
+import ClubItem from '../ClubItem/index'
 import './styles.css';
 
 
@@ -8,11 +8,12 @@ const ClubList = (props) => {
             {props.clubs.map(club => 
             <ClubItem 
             key={club.id}
-            id={club.is}
+            id={club.id}
             image={club.image}
             name={club.name}
-            location={club.location}
-            description={club.description}
+            when={club.when}
+            where={club.where}
+            details={club.details}
             />)}
 
         </ul>
