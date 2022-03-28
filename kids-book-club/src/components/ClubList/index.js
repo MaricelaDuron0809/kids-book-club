@@ -1,5 +1,4 @@
-
-import ClubItem from './ClubItem/ClubItem';
+import ClubItem from '../ClubItem/index.js';
 import './styles.css';
 
 

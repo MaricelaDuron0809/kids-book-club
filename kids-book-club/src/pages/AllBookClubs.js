@@ -1,5 +1,6 @@
-import ClubItem from '../components/ClubList/ClubItem/ClubItem';
-import ClubList from '../components/ClubList/ClubList';
+import ClubItem from '../components/ClubItem/index.js';
+import ClubList from '../components/ClubList/index.js';
+
 
 const DUMMY_DATA = [
     {
